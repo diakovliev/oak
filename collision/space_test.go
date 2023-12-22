@@ -3,9 +3,9 @@ package collision
 import (
 	"testing"
 
-	"github.com/oakmound/oak/v4/alg/floatgeom"
+	"github.com/diakovliev/oak/v4/alg/floatgeom"
 
-	"github.com/oakmound/oak/v4/physics"
+	"github.com/diakovliev/oak/v4/physics"
 )
 
 func TestSpaceFuncs(t *testing.T) {

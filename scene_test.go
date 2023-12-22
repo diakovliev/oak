@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/oakmound/oak/v4/oakerr"
-	"github.com/oakmound/oak/v4/scene"
+	"github.com/diakovliev/oak/v4/oakerr"
+	"github.com/diakovliev/oak/v4/scene"
 )
 
 func TestSceneTransition(t *testing.T) {

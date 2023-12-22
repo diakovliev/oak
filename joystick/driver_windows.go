@@ -3,8 +3,8 @@ package joystick
 import (
 	"sync"
 
-	"github.com/oakmound/oak/v4/event"
-	"github.com/oakmound/oak/v4/timing"
+	"github.com/diakovliev/oak/v4/event"
+	"github.com/diakovliev/oak/v4/timing"
 	"github.com/oakmound/w32"
 )
 

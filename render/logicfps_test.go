@@ -4,7 +4,7 @@ import (
 	"image"
 	"testing"
 
-	"github.com/oakmound/oak/v4/event"
+	"github.com/diakovliev/oak/v4/event"
 )
 
 func TestLogicFPS(t *testing.T) {

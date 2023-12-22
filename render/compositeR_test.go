@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/oakmound/oak/v4/alg/floatgeom"
-	"github.com/oakmound/oak/v4/alg/intgeom"
+	"github.com/diakovliev/oak/v4/alg/floatgeom"
+	"github.com/diakovliev/oak/v4/alg/intgeom"
 )
 
 func TestCompositeR(t *testing.T) {

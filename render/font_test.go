@@ -7,7 +7,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/oakmound/oak/v4/oakerr"
+	"github.com/diakovliev/oak/v4/oakerr"
 	"golang.org/x/image/colornames"
 )
 

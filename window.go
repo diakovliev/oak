@@ -4,7 +4,7 @@
 //
 // A minimal oak app follows:
 //
-// 	func main() {
+//	func main() {
 //		oak.AddScene("myApp", scene.Scene{Start: func(ctx *scene.Context) {
 //			// ... ctx.Draw(...), event.Bind(ctx, ...)
 //		}})
@@ -20,17 +20,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/oakmound/oak/v4/alg/intgeom"
-	"github.com/oakmound/oak/v4/collision"
-	"github.com/oakmound/oak/v4/debugstream"
-	"github.com/oakmound/oak/v4/event"
-	"github.com/oakmound/oak/v4/key"
-	"github.com/oakmound/oak/v4/mouse"
-	"github.com/oakmound/oak/v4/render"
-	"github.com/oakmound/oak/v4/scene"
-	"github.com/oakmound/oak/v4/shiny/driver"
-	"github.com/oakmound/oak/v4/shiny/screen"
-	"github.com/oakmound/oak/v4/window"
+	"github.com/diakovliev/oak/v4/alg/intgeom"
+	"github.com/diakovliev/oak/v4/collision"
+	"github.com/diakovliev/oak/v4/debugstream"
+	"github.com/diakovliev/oak/v4/event"
+	"github.com/diakovliev/oak/v4/key"
+	"github.com/diakovliev/oak/v4/mouse"
+	"github.com/diakovliev/oak/v4/render"
+	"github.com/diakovliev/oak/v4/scene"
+	"github.com/diakovliev/oak/v4/shiny/driver"
+	"github.com/diakovliev/oak/v4/shiny/screen"
+	"github.com/diakovliev/oak/v4/window"
 )
 
 var _ window.App = &Window{}

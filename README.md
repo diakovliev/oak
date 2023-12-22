@@ -2,7 +2,7 @@
 
 ## A Pure Go game engine
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/oakmound/oak/v4.svg)](https://pkg.go.dev/github.com/oakmound/oak/v4)
+[![Go Reference](https://pkg.go.dev/badge/github.com/diakovliev/oak/v4.svg)](https://pkg.go.dev/github.com/diakovliev/oak/v4)
 [![Code Coverage](https://codecov.io/gh/oakmound/oak/branch/master/graph/badge.svg)](https://codecov.io/gh/oakmound/oak)
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)
 
@@ -24,14 +24,14 @@
 
 ## Installation <a name="installation"/>
 
-`go get -u github.com/oakmound/oak/v4`
+`go get -u github.com/diakovliev/oak/v4`
 
 ## Features and Systems <a name="features"></a>
 
 1. Window Management
     - Windows and key events forked from [shiny](https://pkg.go.dev/golang.org/x/exp/shiny)
     - Support for multiple windows running at the same time
-1. [Image Rendering](https://pkg.go.dev/github.com/oakmound/oak/v4/render)
+1. [Image Rendering](https://pkg.go.dev/github.com/diakovliev/oak/v4/render)
     - Manipulation
         - `render.Modifiable` interface
         - Integrated with optimized image manipulation via [gift](https://github.com/disintegration/gift)
@@ -40,18 +40,18 @@
         - Primitive builders, `ColorBox`, `Line`, `Bezier`
         - History-tracking `Reverting`
     - Primarily 2D
-1. [Particle System](https://pkg.go.dev/github.com/oakmound/oak/v4/render/particle)
-1. [Mouse Handling](https://pkg.go.dev/github.com/oakmound/oak/v4/mouse)
-1. [Joystick Support](https://pkg.go.dev/github.com/oakmound/oak/v4/joystick)
-1. [Audio Support](https://pkg.go.dev/github.com/oakmound/oak/v4/audio)
-1. [Collision](https://pkg.go.dev/github.com/oakmound/oak/v4/collision)
+1. [Particle System](https://pkg.go.dev/github.com/diakovliev/oak/v4/render/particle)
+1. [Mouse Handling](https://pkg.go.dev/github.com/diakovliev/oak/v4/mouse)
+1. [Joystick Support](https://pkg.go.dev/github.com/diakovliev/oak/v4/joystick)
+1. [Audio Support](https://pkg.go.dev/github.com/diakovliev/oak/v4/audio)
+1. [Collision](https://pkg.go.dev/github.com/diakovliev/oak/v4/collision)
     - Collision R-Tree forked from [rtreego](https://github.com/dhconnelly/rtreego)
-    - [2D Raycasting](https://pkg.go.dev/github.com/oakmound/oak/v4/collision/ray)
+    - [2D Raycasting](https://pkg.go.dev/github.com/diakovliev/oak/v4/collision/ray)
     - Collision Spaces
         - Attachable to Objects
         - Auto React to collisions through events
-1. [2D Physics System](https://pkg.go.dev/github.com/oakmound/oak/v4/physics)
-1. [Event Handler](https://pkg.go.dev/github.com/oakmound/oak/v4/event)
+1. [2D Physics System](https://pkg.go.dev/github.com/diakovliev/oak/v4/physics)
+1. [Event Handler](https://pkg.go.dev/github.com/diakovliev/oak/v4/event)
 
 ## Support <a name="support"></a>
 
@@ -65,8 +65,8 @@ This is an example of the most basic oak program:
 package main
 
 import (
-    "github.com/oakmound/oak/v4"
-    "github.com/oakmound/oak/v4/scene"
+    "github.com/diakovliev/oak/v4"
+    "github.com/diakovliev/oak/v4/scene"
 )
 
 func main() {
@@ -79,7 +79,7 @@ func main() {
 }
 ```
 
-See below or navigate to the [examples](examples) folder for demos. For more examples and documentation checkout  [godoc](https://pkg.go.dev/github.com/oakmound/oak/v4) for reference documentation, the [wiki](https://github.com/oakmound/oak/wiki), or our extended features in [grove](https://github.com/oakmound/grove). 
+See below or navigate to the [examples](examples) folder for demos. For more examples and documentation checkout  [godoc](https://pkg.go.dev/github.com/diakovliev/oak/v4) for reference documentation, the [wiki](https://github.com/oakmound/oak/wiki), or our extended features in [grove](https://github.com/oakmound/grove). 
 
 ## Examples <a name="examples"></a>
 

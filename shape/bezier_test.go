@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/oakmound/oak/v4/oakerr"
+	"github.com/diakovliev/oak/v4/oakerr"
 )
 
 const randTestCt = 100

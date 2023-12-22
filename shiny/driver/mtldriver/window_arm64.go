@@ -7,8 +7,8 @@ import (
 	"image"
 
 	"dmitri.shuralyov.com/gpu/mtl"
-	"github.com/oakmound/oak/v4/shiny/driver/internal/drawer"
-	"github.com/oakmound/oak/v4/shiny/screen"
+	"github.com/diakovliev/oak/v4/shiny/driver/internal/drawer"
+	"github.com/diakovliev/oak/v4/shiny/screen"
 	"golang.org/x/image/draw"
 	"golang.org/x/image/math/f64"
 )

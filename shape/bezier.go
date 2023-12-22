@@ -1,8 +1,8 @@
 package shape
 
 import (
-	"github.com/oakmound/oak/v4/alg/floatgeom"
-	"github.com/oakmound/oak/v4/oakerr"
+	"github.com/diakovliev/oak/v4/alg/floatgeom"
+	"github.com/diakovliev/oak/v4/oakerr"
 )
 
 // BezierCurve will form a Bezier on the given coordinates, expected in (x,y)

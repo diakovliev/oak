@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/oakmound/oak/v4"
-	"github.com/oakmound/oak/v4/alg/floatgeom"
-	"github.com/oakmound/oak/v4/debugtools/inputviz"
-	"github.com/oakmound/oak/v4/scene"
+	"github.com/diakovliev/oak/v4"
+	"github.com/diakovliev/oak/v4/alg/floatgeom"
+	"github.com/diakovliev/oak/v4/debugtools/inputviz"
+	"github.com/diakovliev/oak/v4/scene"
 )
 
 func main() {

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/diakovliev/oak/v4/audio/pcm"
 	"github.com/oakmound/alsa"
-	"github.com/oakmound/oak/v4/audio/pcm"
 )
 
 func newALSAWriter(f pcm.Format) (pcm.Writer, error) {

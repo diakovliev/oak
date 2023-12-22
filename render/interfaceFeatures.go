@@ -1,6 +1,6 @@
 package render
 
-import "github.com/oakmound/oak/v4/event"
+import "github.com/diakovliev/oak/v4/event"
 
 // NonStatic types are not always static. If something is not NonStatic,
 // it is equivalent to having IsStatic always return true.

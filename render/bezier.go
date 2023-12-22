@@ -4,9 +4,9 @@ import (
 	"image"
 	"image/color"
 
-	"github.com/oakmound/oak/v4/alg"
-	"github.com/oakmound/oak/v4/alg/intgeom"
-	"github.com/oakmound/oak/v4/shape"
+	"github.com/diakovliev/oak/v4/alg"
+	"github.com/diakovliev/oak/v4/alg/intgeom"
+	"github.com/diakovliev/oak/v4/shape"
 )
 
 // BezierLine converts a bezier into a line sprite.

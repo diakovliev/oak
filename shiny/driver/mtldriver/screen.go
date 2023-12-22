@@ -10,8 +10,8 @@ package mtldriver
 import (
 	"image"
 
+	"github.com/diakovliev/oak/v4/shiny/screen"
 	"github.com/go-gl/glfw/v3.3/glfw"
-	"github.com/oakmound/oak/v4/shiny/screen"
 )
 
 // screenImpl implements screen.Screen.

@@ -5,7 +5,7 @@ import (
 	"image/draw"
 	"strconv"
 
-	"github.com/oakmound/oak/v4/alg"
+	"github.com/diakovliev/oak/v4/alg"
 	"golang.org/x/image/math/fixed"
 )
 
@@ -118,7 +118,7 @@ func (t *Text) SetStringer(s fmt.Stringer) {
 	t.text = s
 }
 
-//SetInt takes and converts the input integer to a string to write
+// SetInt takes and converts the input integer to a string to write
 func (t *Text) SetInt(i int) {
 	t.text = stringStringer(strconv.Itoa(i))
 }

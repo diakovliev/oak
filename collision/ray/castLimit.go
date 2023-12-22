@@ -1,8 +1,8 @@
 package ray
 
 import (
-	"github.com/oakmound/oak/v4/collision"
-	"github.com/oakmound/oak/v4/event"
+	"github.com/diakovliev/oak/v4/collision"
+	"github.com/diakovliev/oak/v4/event"
 )
 
 // A CastLimit is a function that can be applied to

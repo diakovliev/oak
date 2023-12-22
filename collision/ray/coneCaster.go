@@ -1,9 +1,9 @@
 package ray
 
 import (
-	"github.com/oakmound/oak/v4/alg"
-	"github.com/oakmound/oak/v4/alg/floatgeom"
-	"github.com/oakmound/oak/v4/collision"
+	"github.com/diakovliev/oak/v4/alg"
+	"github.com/diakovliev/oak/v4/alg/floatgeom"
+	"github.com/diakovliev/oak/v4/collision"
 )
 
 var (
@@ -97,14 +97,18 @@ func ConeCastTo(origin, target floatgeom.Point2) []collision.Point {
 // Example:
 // Casting from a to b:
 // if True:
-//    .  b  .
-//   . . .
-//  ...
+//
+//	  .  b  .
+//	 . . .
+//	...
+//
 // a
 // if False:
-//    b     .
-//   .   .
-//  . .
+//
+//	  b     .
+//	 .   .
+//	. .
+//
 // a
 func CenterCone(on bool) ConeCastOption {
 	return func(cc *ConeCaster) {

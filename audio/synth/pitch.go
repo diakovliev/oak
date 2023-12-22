@@ -3,7 +3,7 @@ package synth
 import (
 	"sort"
 
-	"github.com/oakmound/oak/v4/audio/pcm"
+	"github.com/diakovliev/oak/v4/audio/pcm"
 )
 
 // A Pitch is a frequency value which represents how fast a wave should oscillate to produce a specific tone.
@@ -660,12 +660,12 @@ func (pd *PitchDetector) ReadPCM(b []byte) (n int, err error) {
 }
 
 // Round rounds a pitch value to the closest predefined pitch value in hertz:
+//
 //	func main() {
 //		hz := synth.Pitch(1024)
-// 		hz2 := hz.Round()
-// 		fmt.Println(hz2, int(hz2))) // "C6", 1047
+//		hz2 := hz.Round()
+//		fmt.Println(hz2, int(hz2))) // "C6", 1047
 //	}
-//
 func (p Pitch) Round() Pitch {
 	// binary search
 	i := sort.Search(len(allPitches)-1, func(i int) bool {

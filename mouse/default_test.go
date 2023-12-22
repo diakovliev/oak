@@ -3,7 +3,7 @@ package mouse
 import (
 	"testing"
 
-	"github.com/oakmound/oak/v4/collision"
+	"github.com/diakovliev/oak/v4/collision"
 )
 
 func TestDefaultFunctions(t *testing.T) {

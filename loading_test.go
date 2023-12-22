@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/oakmound/oak/v4/scene"
+	"github.com/diakovliev/oak/v4/scene"
 )
 
 func TestBatchLoad_HappyPath(t *testing.T) {

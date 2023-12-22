@@ -4,11 +4,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/oakmound/oak/v4/dlog"
-	"github.com/oakmound/oak/v4/event"
-	"github.com/oakmound/oak/v4/joystick"
-	"github.com/oakmound/oak/v4/key"
-	"github.com/oakmound/oak/v4/mouse"
+	"github.com/diakovliev/oak/v4/dlog"
+	"github.com/diakovliev/oak/v4/event"
+	"github.com/diakovliev/oak/v4/joystick"
+	"github.com/diakovliev/oak/v4/key"
+	"github.com/diakovliev/oak/v4/mouse"
 )
 
 // InputType expresses some form of input to the engine to represent a player

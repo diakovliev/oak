@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/oakmound/oak/v4/alg/floatgeom"
+	"github.com/diakovliev/oak/v4/alg/floatgeom"
 )
 
 var (

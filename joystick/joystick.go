@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/oakmound/oak/v4/dlog"
-	"github.com/oakmound/oak/v4/event"
+	"github.com/diakovliev/oak/v4/dlog"
+	"github.com/diakovliev/oak/v4/event"
 )
 
 type Input string

@@ -1,8 +1,8 @@
 package oak
 
 import (
-	"github.com/oakmound/oak/v4/alg/intgeom"
-	"github.com/oakmound/oak/v4/event"
+	"github.com/diakovliev/oak/v4/alg/intgeom"
+	"github.com/diakovliev/oak/v4/event"
 )
 
 type Viewport struct {

@@ -7,12 +7,12 @@ import (
 	"math/rand"
 	"strconv"
 
-	oak "github.com/oakmound/oak/v4"
-	"github.com/oakmound/oak/v4/event"
-	"github.com/oakmound/oak/v4/key"
-	"github.com/oakmound/oak/v4/mouse"
-	"github.com/oakmound/oak/v4/render"
-	"github.com/oakmound/oak/v4/scene"
+	oak "github.com/diakovliev/oak/v4"
+	"github.com/diakovliev/oak/v4/event"
+	"github.com/diakovliev/oak/v4/key"
+	"github.com/diakovliev/oak/v4/mouse"
+	"github.com/diakovliev/oak/v4/render"
+	"github.com/diakovliev/oak/v4/scene"
 )
 
 func main() {

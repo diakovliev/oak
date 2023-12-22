@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/oakmound/oak/v4/audio"
+	"github.com/diakovliev/oak/v4/audio"
 )
 
 func TestMain(m *testing.M) {

@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/oakmound/oak/v4/shiny/screen"
+	"github.com/diakovliev/oak/v4/shiny/screen"
 )
 
 func TestDefaultConfigFileMatchesEmptyConfig(t *testing.T) {

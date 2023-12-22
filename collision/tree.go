@@ -4,8 +4,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/oakmound/oak/v4/alg/floatgeom"
-	"github.com/oakmound/oak/v4/oakerr"
+	"github.com/diakovliev/oak/v4/alg/floatgeom"
+	"github.com/diakovliev/oak/v4/oakerr"
 )
 
 // A Tree provides a space for managing collisions between rectangles

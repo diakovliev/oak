@@ -4,11 +4,11 @@ import (
 	"image/color"
 	"testing"
 
-	"github.com/oakmound/oak/v4/alg/span"
-	"github.com/oakmound/oak/v4/event"
-	"github.com/oakmound/oak/v4/physics"
-	"github.com/oakmound/oak/v4/render"
-	"github.com/oakmound/oak/v4/shape"
+	"github.com/diakovliev/oak/v4/alg/span"
+	"github.com/diakovliev/oak/v4/event"
+	"github.com/diakovliev/oak/v4/physics"
+	"github.com/diakovliev/oak/v4/render"
+	"github.com/diakovliev/oak/v4/shape"
 )
 
 func TestSource(t *testing.T) {

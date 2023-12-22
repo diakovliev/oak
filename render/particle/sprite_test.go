@@ -5,8 +5,8 @@ import (
 	"image/color"
 	"testing"
 
-	"github.com/oakmound/oak/v4/alg/span"
-	"github.com/oakmound/oak/v4/render"
+	"github.com/diakovliev/oak/v4/alg/span"
+	"github.com/diakovliev/oak/v4/render"
 )
 
 func TestSpriteParticle(t *testing.T) {

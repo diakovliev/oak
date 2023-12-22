@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/oakmound/oak/v4/dlog"
+	"github.com/diakovliev/oak/v4/dlog"
 )
 
 func TestErrorCheck(t *testing.T) {

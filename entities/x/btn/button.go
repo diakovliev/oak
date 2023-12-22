@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"image/color"
 
-	"github.com/oakmound/oak/v4/alg/floatgeom"
-	"github.com/oakmound/oak/v4/collision"
-	"github.com/oakmound/oak/v4/entities"
-	"github.com/oakmound/oak/v4/event"
-	"github.com/oakmound/oak/v4/mouse"
-	"github.com/oakmound/oak/v4/render"
-	"github.com/oakmound/oak/v4/render/mod"
-	"github.com/oakmound/oak/v4/scene"
-	"github.com/oakmound/oak/v4/shape"
+	"github.com/diakovliev/oak/v4/alg/floatgeom"
+	"github.com/diakovliev/oak/v4/collision"
+	"github.com/diakovliev/oak/v4/entities"
+	"github.com/diakovliev/oak/v4/event"
+	"github.com/diakovliev/oak/v4/mouse"
+	"github.com/diakovliev/oak/v4/render"
+	"github.com/diakovliev/oak/v4/render/mod"
+	"github.com/diakovliev/oak/v4/scene"
+	"github.com/diakovliev/oak/v4/shape"
 )
 
 // A Generator defines the variables used to create buttons from optional arguments

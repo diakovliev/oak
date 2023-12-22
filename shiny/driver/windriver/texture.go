@@ -16,8 +16,8 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/oakmound/oak/v4/shiny/driver/internal/win32"
-	"github.com/oakmound/oak/v4/shiny/screen"
+	"github.com/diakovliev/oak/v4/shiny/driver/internal/win32"
+	"github.com/diakovliev/oak/v4/shiny/screen"
 )
 
 type textureImpl struct {

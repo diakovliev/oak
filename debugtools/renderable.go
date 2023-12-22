@@ -1,7 +1,7 @@
 package debugtools
 
 import (
-	"github.com/oakmound/oak/v4/render"
+	"github.com/diakovliev/oak/v4/render"
 	"golang.org/x/sync/syncmap"
 )
 

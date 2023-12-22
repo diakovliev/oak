@@ -3,7 +3,7 @@ package scene
 import (
 	"sync"
 
-	"github.com/oakmound/oak/v4/oakerr"
+	"github.com/diakovliev/oak/v4/oakerr"
 )
 
 // A Map lets scenes be accessed via associated names.

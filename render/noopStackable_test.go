@@ -3,7 +3,7 @@ package render
 import (
 	"testing"
 
-	"github.com/oakmound/oak/v4/alg/intgeom"
+	"github.com/diakovliev/oak/v4/alg/intgeom"
 )
 
 func TestNoopStackable(t *testing.T) {

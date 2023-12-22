@@ -13,8 +13,8 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/oakmound/oak/v4/shiny/driver/internal/swizzle"
-	"github.com/oakmound/oak/v4/shiny/driver/internal/win32"
+	"github.com/diakovliev/oak/v4/shiny/driver/internal/swizzle"
+	"github.com/diakovliev/oak/v4/shiny/driver/internal/win32"
 )
 
 type bufferImpl struct {

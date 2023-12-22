@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/diakovliev/oak/v4/shape"
 	"github.com/disintegration/gift"
-	"github.com/oakmound/oak/v4/shape"
 )
 
 func TestComposedModifications(t *testing.T) {

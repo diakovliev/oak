@@ -3,9 +3,9 @@ package particle
 import (
 	"math"
 
-	"github.com/oakmound/oak/v4/alg/span"
-	"github.com/oakmound/oak/v4/physics"
-	"github.com/oakmound/oak/v4/render"
+	"github.com/diakovliev/oak/v4/alg/span"
+	"github.com/diakovliev/oak/v4/physics"
+	"github.com/diakovliev/oak/v4/render"
 )
 
 var (

@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/oakmound/oak/v4/dlog"
-	"github.com/oakmound/oak/v4/event"
-	"github.com/oakmound/oak/v4/oakerr"
-	"github.com/oakmound/oak/v4/timing"
+	"github.com/diakovliev/oak/v4/dlog"
+	"github.com/diakovliev/oak/v4/event"
+	"github.com/diakovliev/oak/v4/oakerr"
+	"github.com/diakovliev/oak/v4/timing"
 
 	"encoding/binary"
 	"path"

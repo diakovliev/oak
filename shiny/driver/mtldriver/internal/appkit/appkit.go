@@ -18,7 +18,7 @@ package appkit
 import (
 	"unsafe"
 
-	"github.com/oakmound/oak/v4/shiny/driver/mtldriver/internal/coreanim"
+	"github.com/diakovliev/oak/v4/shiny/driver/mtldriver/internal/coreanim"
 )
 
 /*

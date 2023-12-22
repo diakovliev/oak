@@ -6,8 +6,8 @@ import (
 	"image/color"
 	"image/draw"
 
-	"github.com/oakmound/oak/v4/shiny/driver/internal/event"
-	"github.com/oakmound/oak/v4/shiny/screen"
+	"github.com/diakovliev/oak/v4/shiny/driver/internal/event"
+	"github.com/diakovliev/oak/v4/shiny/screen"
 )
 
 func Main(f func(screen.Screen)) {

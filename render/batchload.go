@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/oakmound/oak/v4/alg/intgeom"
-	"github.com/oakmound/oak/v4/dlog"
-	"github.com/oakmound/oak/v4/fileutil"
-	"github.com/oakmound/oak/v4/oakerr"
+	"github.com/diakovliev/oak/v4/alg/intgeom"
+	"github.com/diakovliev/oak/v4/dlog"
+	"github.com/diakovliev/oak/v4/fileutil"
+	"github.com/diakovliev/oak/v4/oakerr"
 )
 
 // BatchLoad loads subdirectories from the given base folder and imports all files,

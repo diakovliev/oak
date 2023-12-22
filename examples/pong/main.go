@@ -5,14 +5,14 @@ import (
 	"math"
 	"math/rand"
 
-	oak "github.com/oakmound/oak/v4"
-	"github.com/oakmound/oak/v4/alg/floatgeom"
-	"github.com/oakmound/oak/v4/collision"
-	"github.com/oakmound/oak/v4/entities"
-	"github.com/oakmound/oak/v4/event"
-	"github.com/oakmound/oak/v4/key"
-	"github.com/oakmound/oak/v4/render"
-	"github.com/oakmound/oak/v4/scene"
+	oak "github.com/diakovliev/oak/v4"
+	"github.com/diakovliev/oak/v4/alg/floatgeom"
+	"github.com/diakovliev/oak/v4/collision"
+	"github.com/diakovliev/oak/v4/entities"
+	"github.com/diakovliev/oak/v4/event"
+	"github.com/diakovliev/oak/v4/key"
+	"github.com/diakovliev/oak/v4/render"
+	"github.com/diakovliev/oak/v4/scene"
 )
 
 var (

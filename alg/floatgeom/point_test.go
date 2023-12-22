@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/oakmound/oak/v4/alg"
+	"github.com/diakovliev/oak/v4/alg"
 )
 
 func Seed() {

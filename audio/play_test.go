@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/oakmound/oak/v4/audio"
-	"github.com/oakmound/oak/v4/audio/format/wav"
-	"github.com/oakmound/oak/v4/audio/pcm"
-	"github.com/oakmound/oak/v4/audio/synth"
+	"github.com/diakovliev/oak/v4/audio"
+	"github.com/diakovliev/oak/v4/audio/format/wav"
+	"github.com/diakovliev/oak/v4/audio/pcm"
+	"github.com/diakovliev/oak/v4/audio/synth"
 )
 
 func TestMain(m *testing.M) {

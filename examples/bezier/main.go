@@ -5,13 +5,13 @@ import (
 	"image/color"
 	"strconv"
 
-	oak "github.com/oakmound/oak/v4"
-	"github.com/oakmound/oak/v4/debugstream"
-	"github.com/oakmound/oak/v4/event"
-	"github.com/oakmound/oak/v4/mouse"
-	"github.com/oakmound/oak/v4/render"
-	"github.com/oakmound/oak/v4/scene"
-	"github.com/oakmound/oak/v4/shape"
+	oak "github.com/diakovliev/oak/v4"
+	"github.com/diakovliev/oak/v4/debugstream"
+	"github.com/diakovliev/oak/v4/event"
+	"github.com/diakovliev/oak/v4/mouse"
+	"github.com/diakovliev/oak/v4/render"
+	"github.com/diakovliev/oak/v4/scene"
+	"github.com/diakovliev/oak/v4/shape"
 )
 
 var (

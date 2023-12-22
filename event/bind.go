@@ -3,7 +3,7 @@ package event
 import (
 	"sync/atomic"
 
-	"github.com/oakmound/oak/v4/dlog"
+	"github.com/diakovliev/oak/v4/dlog"
 )
 
 // Q: Why do Bind / Unbind / etc not immediately take effect?

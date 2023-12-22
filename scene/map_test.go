@@ -5,7 +5,7 @@ import (
 	"image"
 	"testing"
 
-	"github.com/oakmound/oak/v4/oakerr"
+	"github.com/diakovliev/oak/v4/oakerr"
 )
 
 func TestMap(t *testing.T) {

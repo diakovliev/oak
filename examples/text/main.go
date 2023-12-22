@@ -9,11 +9,11 @@ import (
 
 	"image"
 
+	oak "github.com/diakovliev/oak/v4"
+	"github.com/diakovliev/oak/v4/alg/span"
+	"github.com/diakovliev/oak/v4/render"
+	"github.com/diakovliev/oak/v4/scene"
 	findfont "github.com/flopp/go-findfont"
-	oak "github.com/oakmound/oak/v4"
-	"github.com/oakmound/oak/v4/alg/span"
-	"github.com/oakmound/oak/v4/render"
-	"github.com/oakmound/oak/v4/scene"
 )
 
 //go:embed assets

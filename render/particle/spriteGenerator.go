@@ -1,10 +1,10 @@
 package particle
 
 import (
-	"github.com/oakmound/oak/v4/alg/span"
+	"github.com/diakovliev/oak/v4/alg/span"
 
-	"github.com/oakmound/oak/v4/alg"
-	"github.com/oakmound/oak/v4/render"
+	"github.com/diakovliev/oak/v4/alg"
+	"github.com/diakovliev/oak/v4/render"
 )
 
 // A SpriteGenerator generate SpriteParticles

@@ -2,9 +2,9 @@
 package grid
 
 import (
-	"github.com/oakmound/oak/v4/entities"
-	"github.com/oakmound/oak/v4/entities/x/btn"
-	"github.com/oakmound/oak/v4/scene"
+	"github.com/diakovliev/oak/v4/entities"
+	"github.com/diakovliev/oak/v4/entities/x/btn"
+	"github.com/diakovliev/oak/v4/scene"
 )
 
 // A Grid is a 2D slice of entities

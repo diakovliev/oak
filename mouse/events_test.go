@@ -3,7 +3,7 @@ package mouse
 import (
 	"testing"
 
-	"github.com/oakmound/oak/v4/event"
+	"github.com/diakovliev/oak/v4/event"
 )
 
 func TestEventOn(t *testing.T) {

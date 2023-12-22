@@ -3,13 +3,13 @@ package entities
 import (
 	"image/color"
 
-	"github.com/oakmound/oak/v4/alg/floatgeom"
-	"github.com/oakmound/oak/v4/collision"
-	"github.com/oakmound/oak/v4/dlog"
-	"github.com/oakmound/oak/v4/event"
-	"github.com/oakmound/oak/v4/render"
-	"github.com/oakmound/oak/v4/render/mod"
-	"github.com/oakmound/oak/v4/scene"
+	"github.com/diakovliev/oak/v4/alg/floatgeom"
+	"github.com/diakovliev/oak/v4/collision"
+	"github.com/diakovliev/oak/v4/dlog"
+	"github.com/diakovliev/oak/v4/event"
+	"github.com/diakovliev/oak/v4/render"
+	"github.com/diakovliev/oak/v4/render/mod"
+	"github.com/diakovliev/oak/v4/scene"
 )
 
 type Generator struct {

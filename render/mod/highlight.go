@@ -4,7 +4,7 @@ import (
 	"image"
 	"image/color"
 
-	"github.com/oakmound/oak/v4/alg/intgeom"
+	"github.com/diakovliev/oak/v4/alg/intgeom"
 )
 
 func HighlightOff(c color.Color, thickness, xOff, yOff int) Mod {

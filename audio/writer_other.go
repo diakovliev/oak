@@ -3,8 +3,8 @@
 package audio
 
 import (
-	"github.com/oakmound/oak/v4/audio/pcm"
-	"github.com/oakmound/oak/v4/oakerr"
+	"github.com/diakovliev/oak/v4/audio/pcm"
+	"github.com/diakovliev/oak/v4/oakerr"
 )
 
 func initOS(driver Driver) error {

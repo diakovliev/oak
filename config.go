@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/oakmound/oak/v4/fileutil"
-	"github.com/oakmound/oak/v4/shiny/driver"
+	"github.com/diakovliev/oak/v4/fileutil"
+	"github.com/diakovliev/oak/v4/shiny/driver"
 )
 
 // A Config defines the settings oak accepts on initialization. Some of these settings may be ignored depending

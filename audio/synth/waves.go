@@ -5,7 +5,7 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/oakmound/oak/v4/audio/pcm"
+	"github.com/diakovliev/oak/v4/audio/pcm"
 )
 
 // Wave functions take a set of options and return an audio
@@ -17,10 +17,11 @@ func phase(freq Pitch, i int, sampleRate uint32) float64 {
 }
 
 // Sin produces a Sin wave
-//             __
-//           --  --
-//          /      \
-//    --__--        --__--
+//
+//	         __
+//	       --  --
+//	      /      \
+//	--__--        --__--
 func (s Source) Sin(opts ...Option) pcm.Reader {
 	return s.Wave(Source.SinWave, opts...)
 }
@@ -37,9 +38,9 @@ func (s Source) Square(opts ...Option) pcm.Reader {
 // pulse the time up and down will change so that 1/pulse time the wave will
 // be up.
 //
-//         __    __
-//         ||    ||
-//     ____||____||____
+//	    __    __
+//	    ||    ||
+//	____||____||____
 func (s Source) Pulse(pulse float64) func(opts ...Option) pcm.Reader {
 	return func(opts ...Option) pcm.Reader {
 		return s.Wave(PulseWave(pulse), opts...)
@@ -58,9 +59,9 @@ func PulseWave(pulse float64) Waveform {
 
 // Saw produces a saw wave
 //
-//       ^   ^   ^
-//      / | / | /
-//     /  |/  |/
+//	  ^   ^   ^
+//	 / | / | /
+//	/  |/  |/
 func (s Source) Saw(opts ...Option) pcm.Reader {
 	return s.Wave(Source.SawWave, opts...)
 }
@@ -71,9 +72,9 @@ func (s Source) SawWave(idx int) float64 {
 
 // Triangle produces a Triangle wave
 //
-//       ^   ^
-//      / \ / \
-//     v   v   v
+//	  ^   ^
+//	 / \ / \
+//	v   v   v
 func (s Source) Triangle(opts ...Option) pcm.Reader {
 	return s.Wave(Source.TriangleWave, opts...)
 }

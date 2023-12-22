@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/oakmound/oak/v4/scene"
+	"github.com/diakovliev/oak/v4/scene"
 )
 
 func blankScene(t *testing.T) *Window {

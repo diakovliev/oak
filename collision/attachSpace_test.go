@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/oakmound/oak/v4/event"
-	"github.com/oakmound/oak/v4/physics"
+	"github.com/diakovliev/oak/v4/event"
+	"github.com/diakovliev/oak/v4/physics"
 )
 
 type aspace struct {

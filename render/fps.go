@@ -4,7 +4,7 @@ import (
 	"image/draw"
 	"time"
 
-	"github.com/oakmound/oak/v4/timing"
+	"github.com/diakovliev/oak/v4/timing"
 )
 
 const (

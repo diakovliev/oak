@@ -3,8 +3,8 @@ package render
 import (
 	"time"
 
-	"github.com/oakmound/oak/v4/event"
-	"github.com/oakmound/oak/v4/timing"
+	"github.com/diakovliev/oak/v4/event"
+	"github.com/diakovliev/oak/v4/timing"
 )
 
 // LogicFPS is a Stackable that will draw the logical fps onto the screen when a part

@@ -4,8 +4,8 @@ package window
 import (
 	"image"
 
-	"github.com/oakmound/oak/v4/alg/intgeom"
-	"github.com/oakmound/oak/v4/event"
+	"github.com/diakovliev/oak/v4/alg/intgeom"
+	"github.com/diakovliev/oak/v4/event"
 )
 
 // Window is an interface of methods on an oak.Window available on platforms which have distinct app windows

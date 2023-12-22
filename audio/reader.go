@@ -4,7 +4,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/oakmound/oak/v4/audio/pcm"
+	"github.com/diakovliev/oak/v4/audio/pcm"
 )
 
 var _ pcm.Reader = &LoopingReader{}

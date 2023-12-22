@@ -3,12 +3,12 @@ package oak
 import (
 	"context"
 
-	"github.com/oakmound/oak/v4/alg/intgeom"
-	"github.com/oakmound/oak/v4/dlog"
-	"github.com/oakmound/oak/v4/event"
-	"github.com/oakmound/oak/v4/oakerr"
-	"github.com/oakmound/oak/v4/scene"
-	"github.com/oakmound/oak/v4/timing"
+	"github.com/diakovliev/oak/v4/alg/intgeom"
+	"github.com/diakovliev/oak/v4/dlog"
+	"github.com/diakovliev/oak/v4/event"
+	"github.com/diakovliev/oak/v4/oakerr"
+	"github.com/diakovliev/oak/v4/scene"
+	"github.com/diakovliev/oak/v4/timing"
 )
 
 // the oak loading scene is a reserved scene

@@ -7,8 +7,8 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/oakmound/oak/v4/dlog"
-	"github.com/oakmound/oak/v4/oakerr"
+	"github.com/diakovliev/oak/v4/dlog"
+	"github.com/diakovliev/oak/v4/oakerr"
 	"github.com/oov/directsound-go/dsound"
 )
 

@@ -2,10 +2,9 @@
 //
 // This package may be imported solely to register wavs as a parseable file type within oak:
 //
-//     import (
-//         _ "github.com/oakmound/oak/v4/audio/format/wav"
-//     )
-//
+//	import (
+//	    _ "github.com/diakovliev/oak/v4/audio/format/wav"
+//	)
 package wav
 
 import (
@@ -13,8 +12,8 @@ import (
 
 	"encoding/binary"
 
-	"github.com/oakmound/oak/v4/audio/format"
-	"github.com/oakmound/oak/v4/audio/pcm"
+	"github.com/diakovliev/oak/v4/audio/format"
+	"github.com/diakovliev/oak/v4/audio/pcm"
 )
 
 func init() {

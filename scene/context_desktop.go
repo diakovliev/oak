@@ -3,6 +3,6 @@
 
 package scene
 
-import "github.com/oakmound/oak/v4/window"
+import "github.com/diakovliev/oak/v4/window"
 
 type Window = window.Window

@@ -5,8 +5,8 @@ import (
 	"image/color"
 	"math"
 
-	"github.com/oakmound/oak/v4/alg/floatgeom"
-	"github.com/oakmound/oak/v4/alg/span"
+	"github.com/diakovliev/oak/v4/alg/floatgeom"
+	"github.com/diakovliev/oak/v4/alg/span"
 )
 
 // A Polygon is a renderable that is represented by a set of in order points

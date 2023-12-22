@@ -11,7 +11,7 @@ import (
 	"image"
 	"image/color"
 
-	"github.com/oakmound/oak/v4/shiny/screen"
+	"github.com/diakovliev/oak/v4/shiny/screen"
 	"golang.org/x/image/draw"
 )
 

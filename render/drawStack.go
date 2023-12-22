@@ -3,8 +3,8 @@ package render
 import (
 	"image/draw"
 
-	"github.com/oakmound/oak/v4/alg/intgeom"
-	"github.com/oakmound/oak/v4/oakerr"
+	"github.com/diakovliev/oak/v4/alg/intgeom"
+	"github.com/diakovliev/oak/v4/oakerr"
 )
 
 var (
@@ -12,7 +12,7 @@ var (
 	GlobalDrawStack = NewDrawStack(NewDynamicHeap())
 )
 
-//The DrawStack is a stack with a safe adding mechanism that creates isolation between draw steps via predraw
+// The DrawStack is a stack with a safe adding mechanism that creates isolation between draw steps via predraw
 type DrawStack struct {
 	as     []Stackable
 	toPush []Stackable

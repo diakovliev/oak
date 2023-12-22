@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/oakmound/oak/v4/alg/floatgeom"
-	"github.com/oakmound/oak/v4/collision"
-	"github.com/oakmound/oak/v4/event"
-	"github.com/oakmound/oak/v4/mouse"
-	"github.com/oakmound/oak/v4/render"
+	"github.com/diakovliev/oak/v4/alg/floatgeom"
+	"github.com/diakovliev/oak/v4/collision"
+	"github.com/diakovliev/oak/v4/event"
+	"github.com/diakovliev/oak/v4/mouse"
+	"github.com/diakovliev/oak/v4/render"
 )
 
 func TestMouseClicks(t *testing.T) {

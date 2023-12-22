@@ -4,12 +4,12 @@ import (
 	"image"
 	"image/color"
 
-	"github.com/oakmound/oak/v4"
-	"github.com/oakmound/oak/v4/collision"
-	"github.com/oakmound/oak/v4/event"
-	"github.com/oakmound/oak/v4/mouse"
-	"github.com/oakmound/oak/v4/render"
-	"github.com/oakmound/oak/v4/scene"
+	"github.com/diakovliev/oak/v4"
+	"github.com/diakovliev/oak/v4/collision"
+	"github.com/diakovliev/oak/v4/event"
+	"github.com/diakovliev/oak/v4/mouse"
+	"github.com/diakovliev/oak/v4/render"
+	"github.com/diakovliev/oak/v4/scene"
 )
 
 // This example demonstrates the use of the StopPropagation boolean on

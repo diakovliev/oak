@@ -2,17 +2,16 @@
 //
 // This package may be imported solely to register mp3s as a parseable file type within oak:
 //
-//     import (
-//         _ "github.com/oakmound/oak/v4/audio/format/mp3"
-//     )
-//
+//	import (
+//	    _ "github.com/diakovliev/oak/v4/audio/format/mp3"
+//	)
 package mp3
 
 import (
 	"io"
 
-	"github.com/oakmound/oak/v4/audio/format"
-	"github.com/oakmound/oak/v4/audio/pcm"
+	"github.com/diakovliev/oak/v4/audio/format"
+	"github.com/diakovliev/oak/v4/audio/pcm"
 
 	"github.com/hajimehoshi/go-mp3"
 )

@@ -5,7 +5,7 @@ import (
 	"image/color"
 	"math"
 
-	"github.com/oakmound/oak/v4/alg/span"
+	"github.com/diakovliev/oak/v4/alg/span"
 )
 
 // Todo:
@@ -55,7 +55,7 @@ func DrawThickLine(rgba *image.RGBA, x1, y1, x2, y2 int, c color.Color, thicknes
 	DrawLineColored(rgba, x1, y1, x2, y2, thickness, IdentityColorer(c))
 }
 
-//DrawGradientLine acts like DrawThickLine but also applies a gradient to the line
+// DrawGradientLine acts like DrawThickLine but also applies a gradient to the line
 func DrawGradientLine(rgba *image.RGBA, x1, y1, x2, y2 int, c1, c2 color.Color, thickness int) {
 	colorer := span.NewLinearColor(c1, c2).Percentile
 	DrawLineColored(rgba, x1, y1, x2, y2, thickness, colorer)

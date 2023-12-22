@@ -3,7 +3,7 @@ package floatgeom
 import (
 	"math/rand"
 
-	"github.com/oakmound/oak/v4/alg/span"
+	"github.com/diakovliev/oak/v4/alg/span"
 )
 
 // A Rect2 represents a span from one point in 2D space to another.

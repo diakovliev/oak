@@ -1,21 +1,19 @@
 // Package flac provides functionality to handle .flac files and .flac encoded data.
 //
-//
 // This package may be imported solely to register flacs as a parseable file type within oak:
 //
-//     import (
-//         _ "github.com/oakmound/oak/v4/audio/format/flac"
-//     )
-//
+//	import (
+//	    _ "github.com/diakovliev/oak/v4/audio/format/flac"
+//	)
 package flac
 
 import (
 	"fmt"
 	"io"
 
+	"github.com/diakovliev/oak/v4/audio/format"
+	"github.com/diakovliev/oak/v4/audio/pcm"
 	"github.com/eaburns/flac"
-	"github.com/oakmound/oak/v4/audio/format"
-	"github.com/oakmound/oak/v4/audio/pcm"
 )
 
 func init() {

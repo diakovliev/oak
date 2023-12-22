@@ -4,7 +4,7 @@ import (
 	"image"
 	"testing"
 
-	"github.com/oakmound/oak/v4/collision"
+	"github.com/diakovliev/oak/v4/collision"
 )
 
 func TestCollisionParticle(t *testing.T) {

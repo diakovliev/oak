@@ -5,10 +5,10 @@ import (
 	"image/draw"
 	"sync"
 
-	"github.com/oakmound/oak/v4/event"
-	"github.com/oakmound/oak/v4/oakerr"
-	"github.com/oakmound/oak/v4/physics"
-	"github.com/oakmound/oak/v4/render/mod"
+	"github.com/diakovliev/oak/v4/event"
+	"github.com/diakovliev/oak/v4/oakerr"
+	"github.com/diakovliev/oak/v4/physics"
+	"github.com/diakovliev/oak/v4/render/mod"
 )
 
 // The Switch type is intended for use to easily swap between multiple
@@ -98,7 +98,7 @@ func (c *Switch) Copy() Modifiable {
 	return newC
 }
 
-//GetRGBA returns the current renderables rgba
+// GetRGBA returns the current renderables rgba
 func (c *Switch) GetRGBA() *image.RGBA {
 	c.lock.RLock()
 	rgba := c.subRenderables[c.curRenderable].GetRGBA()
@@ -125,7 +125,7 @@ func (c *Switch) Filter(fs ...mod.Filter) {
 	c.lock.RUnlock()
 }
 
-//Draw draws the Switch at an offset from its logical location
+// Draw draws the Switch at an offset from its logical location
 func (c *Switch) Draw(buff draw.Image, xOff float64, yOff float64) {
 	c.lock.RLock()
 	c.subRenderables[c.curRenderable].Draw(buff, c.X()+xOff, c.Y()+yOff)

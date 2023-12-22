@@ -8,8 +8,8 @@ import (
 	"image/draw"
 	"syscall/js"
 
-	"github.com/oakmound/oak/v4/shiny/driver/internal/event"
-	"github.com/oakmound/oak/v4/shiny/screen"
+	"github.com/diakovliev/oak/v4/shiny/driver/internal/event"
+	"github.com/diakovliev/oak/v4/shiny/screen"
 	"golang.org/x/mobile/event/key"
 	"golang.org/x/mobile/event/mouse"
 )

@@ -6,11 +6,11 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/oakmound/oak/v4/audio/format"
-	"github.com/oakmound/oak/v4/audio/pcm"
-	"github.com/oakmound/oak/v4/dlog"
-	"github.com/oakmound/oak/v4/fileutil"
-	"github.com/oakmound/oak/v4/oakerr"
+	"github.com/diakovliev/oak/v4/audio/format"
+	"github.com/diakovliev/oak/v4/audio/pcm"
+	"github.com/diakovliev/oak/v4/dlog"
+	"github.com/diakovliev/oak/v4/fileutil"
+	"github.com/diakovliev/oak/v4/oakerr"
 )
 
 // Get will read cached audio data from Load, or error if the given
@@ -44,9 +44,9 @@ func (c *Cache) Load(file string) (pcm.Reader, error) {
 		// provide an error message suggesting a missing import for cases where we know about a
 		// common provider
 		knownFormats := map[string]string{
-			".mp3":  "github.com/oakmound/oak/v4/audio/format/mp3",
-			".flac": "github.com/oakmound/oak/v4/audio/format/flac",
-			".wav":  "github.com/oakmound/oak/v4/audio/format/wav",
+			".mp3":  "github.com/diakovliev/oak/v4/audio/format/mp3",
+			".flac": "github.com/diakovliev/oak/v4/audio/format/flac",
+			".wav":  "github.com/diakovliev/oak/v4/audio/format/wav",
 		}
 		if path, ok := knownFormats[ext]; ok {
 			dlog.Error("unable to parse audio format %v, did you mean to import %v?", ext, path)

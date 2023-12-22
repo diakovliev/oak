@@ -3,7 +3,7 @@ package dlog_test
 import (
 	"testing"
 
-	"github.com/oakmound/oak/v4/dlog"
+	"github.com/diakovliev/oak/v4/dlog"
 )
 
 func TestLevelsString(t *testing.T) {

@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/oakmound/oak/v4/alg/intgeom"
-	"github.com/oakmound/oak/v4/debugtools"
-	"github.com/oakmound/oak/v4/event"
-	"github.com/oakmound/oak/v4/render"
-	"github.com/oakmound/oak/v4/window"
+	"github.com/diakovliev/oak/v4/alg/intgeom"
+	"github.com/diakovliev/oak/v4/debugtools"
+	"github.com/diakovliev/oak/v4/event"
+	"github.com/diakovliev/oak/v4/render"
+	"github.com/diakovliev/oak/v4/window"
 )
 
 type fakeWindow struct {

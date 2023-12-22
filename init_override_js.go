@@ -4,7 +4,7 @@
 package oak
 
 import (
-	"github.com/oakmound/oak/v4/dlog"
+	"github.com/diakovliev/oak/v4/dlog"
 	"syscall/js"
 )
 

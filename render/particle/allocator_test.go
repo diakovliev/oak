@@ -3,7 +3,7 @@ package particle
 import (
 	"testing"
 
-	"github.com/oakmound/oak/v4/event"
+	"github.com/diakovliev/oak/v4/event"
 )
 
 func TestAllocate(t *testing.T) {

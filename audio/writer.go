@@ -1,7 +1,7 @@
 package audio
 
 import (
-	"github.com/oakmound/oak/v4/audio/pcm"
+	"github.com/diakovliev/oak/v4/audio/pcm"
 )
 
 // NewWriter returns a writer which can accept audio streamed matching the given format

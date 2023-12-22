@@ -5,7 +5,7 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/oakmound/oak/v4/alg"
+	"github.com/diakovliev/oak/v4/alg"
 )
 
 // floatFromSpread returns a random value between

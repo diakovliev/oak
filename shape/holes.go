@@ -1,7 +1,7 @@
 package shape
 
 import (
-	"github.com/oakmound/oak/v4/alg/intgeom"
+	"github.com/diakovliev/oak/v4/alg/intgeom"
 )
 
 // GetHoles finds sets of points which are not In this shape that

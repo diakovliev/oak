@@ -1,7 +1,7 @@
 package physics
 
 import (
-	"github.com/oakmound/oak/v4/oakerr"
+	"github.com/diakovliev/oak/v4/oakerr"
 )
 
 const frozen = -64
@@ -47,7 +47,7 @@ func (m *Mass) SetMass(inMass float64) error {
 	return oakerr.InvalidInput{InputName: "inMass"}
 }
 
-//GetMass returns the mass of an object
+// GetMass returns the mass of an object
 func (m *Mass) GetMass() float64 {
 	return m.mass
 }

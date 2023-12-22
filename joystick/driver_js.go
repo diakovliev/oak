@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"syscall/js"
 
-	"github.com/oakmound/oak/v4/event"
-	"github.com/oakmound/oak/v4/oakerr"
-	"github.com/oakmound/oak/v4/timing"
+	"github.com/diakovliev/oak/v4/event"
+	"github.com/diakovliev/oak/v4/oakerr"
+	"github.com/diakovliev/oak/v4/timing"
 )
 
 func osinit() error {

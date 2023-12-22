@@ -5,12 +5,12 @@ import (
 	"image"
 	"image/color"
 
-	"github.com/oakmound/oak/v4"
-	"github.com/oakmound/oak/v4/alg/floatgeom"
-	"github.com/oakmound/oak/v4/debugtools/inputviz"
-	"github.com/oakmound/oak/v4/dlog"
-	"github.com/oakmound/oak/v4/render"
-	"github.com/oakmound/oak/v4/scene"
+	"github.com/diakovliev/oak/v4"
+	"github.com/diakovliev/oak/v4/alg/floatgeom"
+	"github.com/diakovliev/oak/v4/debugtools/inputviz"
+	"github.com/diakovliev/oak/v4/dlog"
+	"github.com/diakovliev/oak/v4/render"
+	"github.com/diakovliev/oak/v4/scene"
 )
 
 func main() {
