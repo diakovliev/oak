@@ -211,6 +211,7 @@ func (w *Window) Publish() {
 
 	cb.PresentDrawable(drawable)
 	cb.Commit()
+	cb.WaitUntilCompleted()
 
 	return
 }

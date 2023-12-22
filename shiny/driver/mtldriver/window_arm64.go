@@ -6,11 +6,16 @@ package mtldriver
 import (
 	"image"
 
+	"dmitri.shuralyov.com/gpu/mtl"
 	"github.com/oakmound/oak/v4/shiny/driver/internal/drawer"
 	"github.com/oakmound/oak/v4/shiny/screen"
 	"golang.org/x/image/draw"
 	"golang.org/x/image/math/f64"
 )
+
+// BGRA on ARM64 is BGRA8UNorm.
+// TODO: make it configurable
+var platformPixelFormat = mtl.PixelFormatBGRA8UNorm
 
 func (w *Window) Upload(dp image.Point, srcImg screen.Image, sr image.Rectangle) {
 	dst := w.bgra

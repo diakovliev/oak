@@ -3,14 +3,14 @@ module github.com/oakmound/oak/v4
 go 1.18
 
 require (
-	dmitri.shuralyov.com/gpu/mtl v0.0.0-20201218220906-28db891af037 // osx, shiny
+	dmitri.shuralyov.com/gpu/mtl v0.0.0-20221208032759-85de2813cf6b // osx, shiny
 	github.com/BurntSushi/xgb v0.0.0-20210121224620-deaf085860bc // linux, shiny
 	github.com/BurntSushi/xgbutil v0.0.0-20190907113008-ad855c713046 // linux, shiny
 	github.com/disintegration/gift v1.2.1 // render
 	github.com/eaburns/flac v0.0.0-20171003200620-9a6fb92396d1
-	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20220320163800-277f93cfa958 // osx, shiny
+	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20231124074035-2de0cf0c80af // osx, shiny
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0
-	github.com/hajimehoshi/go-mp3 v0.3.2
+	github.com/hajimehoshi/go-mp3 v0.3.4
 	github.com/jfreymuth/pulse v0.1.0 // linux, audio
 	github.com/oakmound/alsa v0.0.2 // linux, audio
 	github.com/oakmound/libudev v0.2.1 // linux, joystick
@@ -25,5 +25,5 @@ require (
 
 require (
 	github.com/eaburns/bit v0.0.0-20131029213740-7bd5cd37375d // indirect
-	golang.org/x/exp/shiny v0.0.0-20220518171630-0b5c67f07fdf // indirect
+	golang.org/x/exp/shiny v0.0.0-20231219180239-dc181d75b848 // indirect
 )

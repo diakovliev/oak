@@ -1,3 +1,6 @@
+vendor
+vendor_test
+
 # Binaries for programs and plugins
 *.exe
 *.dll

@@ -14,6 +14,7 @@
 package mtldriver
 
 import (
+	"fmt"
 	"image"
 	"runtime"
 	"sync"
@@ -66,10 +67,13 @@ func main(f func(screen.Screen)) error {
 			releaseCh: make(chan releaseWindowReq, 1),
 			updateCh:  make(chan updateWindowReq, 1),
 		}
+
 		device, err := mtl.CreateSystemDefaultDevice()
 		if err != nil {
 			return err
 		}
+		fmt.Printf("use device: %#v\n", device)
+
 		err = glfw.Init()
 		if err != nil {
 			return err
@@ -191,20 +195,20 @@ func newWindow(device mtl.Device, chans windowRequestChannels, opts screen.Windo
 	if err != nil {
 		return nil, err
 	}
+	if opts.Borderless {
+		window.SetAttrib(glfw.Decorated, 0)
+	}
 
 	ml := coreanim.MakeMetalLayer()
 	ml.SetDevice(device)
 	// Newer (m1) macs appear to not support rgba window formats.
 	// See bgra.go for the consequences of this.
-	ml.SetPixelFormat(mtl.PixelFormatBGRA8UNorm)
+	ml.SetPixelFormat(platformPixelFormat)
 	ml.SetMaximumDrawableCount(3)
 	ml.SetDisplaySyncEnabled(true)
 	cv := appkit.NewWindow(unsafe.Pointer(window.GetCocoaWindow())).ContentView()
 	cv.SetLayer(ml)
 	cv.SetWantsLayer(true)
-	if opts.Borderless {
-		window.SetAttrib(glfw.Decorated, 0)
-	}
 
 	w := &Window{
 		device: device,
@@ -214,7 +218,7 @@ func newWindow(device mtl.Device, chans windowRequestChannels, opts screen.Windo
 		cq:     device.MakeCommandQueue(),
 		bgra:   NewBGRA(image.Rectangle{Max: image.Point{X: opts.Width, Y: opts.Height}}),
 		texture: device.MakeTexture(mtl.TextureDescriptor{
-			PixelFormat: mtl.PixelFormatRGBA8UNorm,
+			PixelFormat: platformPixelFormat,
 			Width:       opts.Width,
 			Height:      opts.Height,
 			StorageMode: mtl.StorageModeManaged,
