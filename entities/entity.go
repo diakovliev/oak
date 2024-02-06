@@ -33,6 +33,8 @@ type Generator struct {
 
 	Children         [][]Option
 	ExplicitChildren []*Entity
+
+	Data any
 }
 
 func And(opts ...Option) Option {
@@ -73,6 +75,13 @@ func WithOffset(p floatgeom.Point2) Option {
 	}
 }
 
+func WithData(v any) Option {
+	return func(g Generator) Generator {
+		g.Data = v
+		return g
+	}
+}
+
 var defaultGenerator = Generator{
 	Dimensions: floatgeom.Point2{1, 1},
 	DrawLayers: []int{0},
@@ -97,6 +106,8 @@ type Entity struct {
 	metadata map[string]string
 
 	Children []*Entity
+
+	Data any
 }
 
 func (e Entity) CID() event.CallerID {
@@ -244,6 +255,7 @@ func New(ctx *scene.Context, opts ...Option) *Entity {
 		Renderable: g.Renderable,
 		Speed:      g.Speed,
 		Children:   children,
+		Data:       g.Data,
 	}
 
 	if g.Renderable == nil && g.Color != nil {
