@@ -303,6 +303,11 @@ func New(ctx *scene.Context, opts ...Option) *Entity {
 	return e
 }
 
+// GetData retrieves data of type T from the given Entity.
+//
+// e *Entity - pointer to the Entity
+// a T - retrieved data of type T
+// err error - error, if any
 func GetData[T any](e *Entity) (a T, err error) {
 	if !e.HasData() {
 		return
@@ -315,10 +320,29 @@ func GetData[T any](e *Entity) (a T, err error) {
 	return
 }
 
+// MustData retrieves the data of type T from the given Entity and panics if there is an error.
+//
+// e *Entity - the Entity from which to retrieve the data
+// T - the type of data to retrieve
+// T - the retrieved data of type T
 func MustData[T any](e *Entity) (a T) {
 	a, err := GetData[T](e)
 	if err != nil {
 		panic(err)
 	}
 	return
+}
+
+// IfData performs a check and executes a callback on the provided Entity if it has data of type T.
+//
+// It takes an Entity pointer e and a callback function as parameters, and returns an error.
+func IfData[T any](e *Entity, callback func(e *Entity, data T) error) error {
+	if !e.HasData() {
+		return nil
+	}
+	d, err := GetData[T](e)
+	if err != nil {
+		return err
+	}
+	return callback(e, d)
 }
