@@ -1,5 +1,5 @@
-//go:build (windows || linux || osx) && !js && !android && !nooswindow
-// +build windows linux osx
+//go:build (windows || linux || osx || darwin) && !js && !android && !nooswindow
+// +build windows linux osx darwin
 // +build !js
 // +build !android
 // +build !nooswindow
