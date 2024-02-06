@@ -212,6 +212,10 @@ func (e *Entity) Destroy() {
 	e.ctx.UnbindAllFrom(e.CallerID)
 }
 
+func (e *Entity) HasData() bool {
+	return e.Data != nil
+}
+
 // SetMetadata sets the metadata for some key to some value. Empty value strings
 // will not be stored.
 func (e *Entity) SetMetadata(k, v string) {
@@ -300,6 +304,9 @@ func New(ctx *scene.Context, opts ...Option) *Entity {
 }
 
 func GetData[T any](e *Entity) (a T, err error) {
+	if !e.HasData() {
+		return
+	}
 	a, ok := e.Data.(T)
 	if !ok {
 		err = fmt.Errorf("expected entity data to be of type %T, got %T", e.Data, a)
