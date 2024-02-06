@@ -1,6 +1,7 @@
 package entities
 
 import (
+	"fmt"
 	"image/color"
 
 	"github.com/diakovliev/oak/v4/alg/floatgeom"
@@ -296,4 +297,21 @@ func New(ctx *scene.Context, opts ...Option) *Entity {
 	}
 
 	return e
+}
+
+func GetData[T any](e *Entity) (a T, err error) {
+	a, ok := e.Data.(T)
+	if !ok {
+		err = fmt.Errorf("expected entity data to be of type %T, got %T", e.Data, a)
+		dlog.Error(err.Error())
+	}
+	return
+}
+
+func MustData[T any](e *Entity) (a T) {
+	a, err := GetData[T](e)
+	if err != nil {
+		panic(err)
+	}
+	return
 }
