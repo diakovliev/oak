@@ -76,13 +76,6 @@ func WithOffset(p floatgeom.Point2) Option {
 	}
 }
 
-func WithData(v any) Option {
-	return func(g Generator) Generator {
-		g.Data = v
-		return g
-	}
-}
-
 var defaultGenerator = Generator{
 	Dimensions: floatgeom.Point2{1, 1},
 	DrawLayers: []int{0},

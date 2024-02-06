@@ -14,6 +14,13 @@ import (
 
 type Option func(Generator) Generator
 
+func WithData(v any) Option {
+	return func(s Generator) Generator {
+		s.Data = v
+		return s
+	}
+}
+
 func WithPosition(v floatgeom.Point2) Option {
 	return func(s Generator) Generator {
 		s.Position = v
